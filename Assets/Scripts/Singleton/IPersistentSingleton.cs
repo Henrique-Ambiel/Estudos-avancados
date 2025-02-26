@@ -85,8 +85,3 @@ public abstract class IPersistentSingleton<T> : MonoBehaviour where T : MonoBeha
 #endif
     }
 }
-
-public class GameManager : IPersistentSingleton<GameManager> //Classe que herda de IPersistentSingleton
-{
-
-}
